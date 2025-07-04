@@ -1,2 +1,2 @@
 # WindRad
-This code simulates the control of the speed of a windmill.
+This code simulates the control of the speed of a windmill (or any rotating electrical machine). The speed range is from 0 (minimum) to 10 (maximum). At zero, the fan is not rotating. These speed levels are entered in an external text file (settings.txt in this case). The user enters a speed level of their choice on the text file and the fan speed chnages accordingly. Currently, the code reads the speed value from the text file every 5 seconds, and updates the speed accordingly. This is the speed read resolution. It can be changed to any value. The project used OPEN GL library to realize the graphics of the windmill.
